@@ -1,6 +1,6 @@
 # Argonaut: Counterfactual Regret Minimization Engine
 
-!["Argonaut Logo"](/docs/images/argonaut.jpg)
+!["Argonaut Logo"](/docs/images/Argonaut.jpg)
 
 ###### _Argonaut - noun. Classical Mythology. a member of the band of men who sailed to Colchis with Jason in the ship Argo in search of the Golden Fleece. (sometimes lowercase) a person in quest of something dangerous but rewarding; adventurer._
 
