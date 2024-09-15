@@ -4,3 +4,12 @@ strategies/
 html/
 latex/
 vscode/
+.idea/
+Kubernetes/
+*.cmake
+*.txt
+*.pdf
+*.html
+*.tex
+*.csv
+Kubernetes/

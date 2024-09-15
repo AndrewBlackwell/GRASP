@@ -1,7 +1,7 @@
-add_executable(run_cfr main.cpp)
+add_executable(run main.cpp)
 
-target_include_directories(run_cfr PRIVATE ../cmdline)
-target_link_libraries(run_cfr Trainer Kuhn)
+target_include_directories(run PRIVATE ../cmdline)
+target_link_libraries(run Trainer Kuhn)
 
 add_subdirectory(Agent)
 add_subdirectory(Trainer)

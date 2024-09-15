@@ -17,6 +17,6 @@ RUN cd /home \
     && ./bootstrap.sh --with-libraries=serialization,filesystem \
     && ./b2 install
 
-RUN mkdir $HOME/Argonaut
-COPY ./ $HOME/Argonaut
-WORKDIR $HOME/Argonaut
+RUN mkdir $HOME/GRASP
+COPY ./ $HOME/GRASP
+WORKDIR $HOME/GRASP
