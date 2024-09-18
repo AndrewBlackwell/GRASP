@@ -51,3 +51,7 @@ For further theoretical grounding and algorithmic details, GRASP draws on founda
 - **Michael Bowling et al.** (2015), "Heads-Up Limit Hold'em Poker is Solved."
 - **Gabriele Farina et al.** (2017), “Regret Minimization in Behaviorally-Constrained Zero-Sum Games” presented at ICML.
 - **Heinrich & Silver** (2016), "Neural Fictitious Self-Play (NFSP)" and "Deep Counterfactual Regret Minimization" (2018)
+
+## DEVELOPMENT UPDATES
+
+> _The Monte Carlo CFR variants (Chance-Sampled, External-Sampled, Outcome-Sampled) are currently under refinement. While the vanilla CFR implementation is fully functional, these methods are still experimental and may exhibit instability in certain edge cases._
