@@ -1,5 +1,5 @@
-#ifndef REGRETMINIMIZATION_TRAINER_HPP
-#define REGRETMINIMIZATION_TRAINER_HPP
+#ifndef GRASP_TRAINER_HPP
+#define GRASP_TRAINER_HPP
 
 #include <functional>
 #include <random>

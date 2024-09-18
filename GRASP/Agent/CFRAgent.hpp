@@ -1,5 +1,5 @@
-#ifndef REGRETMINIMIZATION_CFRAGENT_HPP
-#define REGRETMINIMIZATION_CFRAGENT_HPP
+#ifndef GRASP_CFRAGENT_HPP
+#define GRASP_CFRAGENT_HPP
 
 #include <random>
 #include <string>

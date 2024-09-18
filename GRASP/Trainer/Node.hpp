@@ -1,5 +1,5 @@
-#ifndef REGRETMINIMIZATION_NODE_HPP
-#define REGRETMINIMIZATION_NODE_HPP
+#ifndef GRASP_NODE_HPP
+#define GRASP_NODE_HPP
 
 #include <vector>
 #include <boost/serialization/serialization.hpp>
