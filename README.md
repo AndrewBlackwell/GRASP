@@ -4,7 +4,7 @@
 
 #### GRASP is an advanced C++ framework for implementing Counterfactual Regret Minimization (CFR) algorithms. It is designed to facilitate the exploration and analysis of extensive-form games with imperfect information, offering tools for studying equilibrium strategies and dynamic behavior in competitive environments.
 
-The framework is equipped to handle complex game-theoretic models and is intended for researchers and professionals with expertise in algorithmic game theory, decision-making processes, and reinforcement learning. While its architecture is flexible, **Kuhn Poker** is provided solely as an example of an initial application. GRASP is capable of accommodating more complex and diverse game structures beyond this introductory use case.
+The framework is equipped to handle complex game-theoretic models and is intended for researchers and students with expertise in *(or willingless to learn)* algorithmic game theory, decision-making processes, and reinforcement learning. While its architecture is flexible, **Kuhn Poker** is provided solely as an example of an initial application. GRASP is capable of accommodating more complex and diverse game structures beyond this introductory use case.
 
 ### Core Capabilities
 
