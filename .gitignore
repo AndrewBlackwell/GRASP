@@ -7,7 +7,6 @@ latex/
 .idea/
 Kubernetes/
 *.cmake
-*.txt
 *.pdf
 *.html
 *.tex
