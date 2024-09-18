@@ -3,7 +3,7 @@ build/
 strategies/
 html/
 latex/
-vscode/
+.vscode/
 .idea/
 Kubernetes/
 *.cmake
