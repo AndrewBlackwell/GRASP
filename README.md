@@ -2,26 +2,25 @@
 
 !["GRASP Branding"](/docs/images/grasp1.jpg)
 
-#### GRASP is an advanced C++ framework for implementing Counterfactual Regret Minimization (CFR) algorithms. It is designed to facilitate the exploration and analysis of extensive-form games with imperfect information, offering tools for studying equilibrium strategies and dynamic behavior in competitive environments.
+#### GRASP is a C++ framework for implementing Counterfactual Regret Minimization (CFR) algorithms. It's built to help explore games with imperfect information and study how players can find optimal strategies.
 
-The framework is equipped to handle complex game-theoretic models and is intended for researchers and students with expertise in *(or willingless to learn)* algorithmic game theory, decision-making processes, and reinforcement learning. While its architecture is flexible, **Kuhn Poker** is provided solely as an example of an initial application. GRASP is capable of accommodating more complex and diverse game structures beyond this introductory use case.
+The framework can handle complex game models and is useful for anyone interested in algorithmic game theory, decision-making, or reinforcement learning. **Kuhn Poker** is included as a starting example, but GRASP can work with much more complex games too.
 
-### Core Capabilities
 
-GRASP integrates various advanced CFR algorithms to approximate Nash equilibria and analyze strategic behavior in games with imperfect information:
+GRASP includes several CFR algorithms for finding Nash equilibria in games with hidden information:
 
-- **Standard CFR**: Iteratively updates regrets and strategies, converging towards equilibrium through regret minimization.
-- **Monte Carlo Variants**: Includes Chance-Sampled, External-Sampled, and Outcome-Sampled methods, designed to reduce computational complexity while maintaining robustness in large decision trees.
+- **Standard CFR**: Updates regrets and strategies iteratively to converge toward equilibrium.
+- **Monte Carlo Variants**: Chance-Sampled, External-Sampled, and Outcome-Sampled methods that reduce computational cost for large game trees.
 
-The algorithms implemented within GRASP are based on current research in computational game theory and are suitable for studying optimal play in strategic decision-making scenarios, particularly those involving hidden information or stochastic elements.
+These algorithms are based on research in computational game theory and are good for analyzing strategic decision-making when players don't have complete information.
 
-### Example Use Case: Kuhn Poker
+### Example: Kuhn Poker
 
-While GRASP is built to support general extensive-form games, Kuhn Poker—a simplified two-player, zero-sum poker variant—has been included as an illustrative example. This serves as a manageable decision-tree model for the study of CFR algorithms.
+GRASP works with general extensive-form games, but I've included Kuhn Poker—a simple two-player poker variant—as an easy example to start with. It's a good way to see how CFR algorithms work without getting overwhelmed.
 
 ## Acknowledgements
 
-GRASP utilizes the **cmdline.h** library for parsing command-line input. This header-only library provides an efficient and flexible interface for command-line interaction with minimal overhead.
+GRASP uses the **cmdline.h** library for command-line parsing. It's a header-only library that makes command-line interaction simple.
 
 The **cmdline.h** library is available under the following license:
 
@@ -39,19 +38,19 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
 ```
 
-You can find more information and the full source code on the official [cmdline.h GitHub repository](https://github.com/tanakh/cmdline).
+You can find more info on the [cmdline.h GitHub repository](https://github.com/tanakh/cmdline).
 
-### Reference Materials
+### References
 
-For further theoretical grounding and algorithmic details, GRASP draws on foundational work in game theory and regret minimization:
+Some papers and resources that helped with this project:
 
 - **Harold W. Kuhn** (2007), "Preface to _The Essential John Nash_," Princeton University Press.
 - **Todd W. Neller and Marc Lanctot** (2013), "An Introduction to Counterfactual Regret Minimization."
 - **Martin Zinkevich et al.** (2007), "Regret Minimization in Games with Incomplete Information."
 - **Michael Bowling et al.** (2015), "Heads-Up Limit Hold'em Poker is Solved."
-- **Gabriele Farina et al.** (2017), “Regret Minimization in Behaviorally-Constrained Zero-Sum Games” presented at ICML.
+- **Gabriele Farina et al.** (2017), "Regret Minimization in Behaviorally-Constrained Zero-Sum Games" presented at ICML.
 - **Heinrich & Silver** (2016), "Neural Fictitious Self-Play (NFSP)" and "Deep Counterfactual Regret Minimization" (2018)
 
-## DEVELOPMENT UPDATES
+## Status Note
 
-> _The Monte Carlo CFR variants (Chance-Sampled, External-Sampled, Outcome-Sampled) are currently under refinement. While the vanilla CFR implementation is fully functional, these methods are still experimental and may exhibit instability in certain edge cases._
+> _The Monte Carlo CFR variants (Chance-Sampled, External-Sampled, Outcome-Sampled) are still being worked on. Vanilla CFR is stable and works well, but the Monte Carlo methods might be buggy in some cases._
