@@ -1,26 +1,10 @@
-# GRASP: Game-Theoretic Regret Analysis and Strategy Prediction
+Game-Theoretic Regret Analysis and Strategy Prediction built to help explore games with imperfect information and study how players can find optimal strategies.
 
-!["GRASP Branding"](/docs/images/grasp1.jpg)
-
-#### GRASP is a C++ framework for implementing Counterfactual Regret Minimization (CFR) algorithms. It's built to help explore games with imperfect information and study how players can find optimal strategies.
-
-The framework can handle complex game models and is useful for anyone interested in algorithmic game theory, decision-making, or reinforcement learning. **Kuhn Poker** is included as a starting example, but GRASP can work with much more complex games too.
-
-
-GRASP includes several CFR algorithms for finding Nash equilibria in games with hidden information:
-
-- **Standard CFR**: Updates regrets and strategies iteratively to converge toward equilibrium.
-- **Monte Carlo Variants**: Chance-Sampled, External-Sampled, and Outcome-Sampled methods that reduce computational cost for large game trees.
-
-These algorithms are based on research in computational game theory and are good for analyzing strategic decision-making when players don't have complete information.
-
-### Example: Kuhn Poker
-
-GRASP works with general extensive-form games, but I've included Kuhn Poker—a simple two-player poker variant—as an easy example to start with. It's a good way to see how CFR algorithms work without getting overwhelmed.
+The framework can handle complex game models and is useful for anyone interested in algorithmic game theory, decision-making, or reinforcement learning. **Kuhn Poker** is included as a starting example, but can work with much more complex games too.
 
 ## Acknowledgements
 
-GRASP uses the **cmdline.h** library for command-line parsing. It's a header-only library that makes command-line interaction simple.
+This project uses the **cmdline.h** library for command-line parsing. It's a header-only library that makes command-line interaction simple.
 
 The **cmdline.h** library is available under the following license:
 
